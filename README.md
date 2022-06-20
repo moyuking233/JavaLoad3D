@@ -5,11 +5,17 @@
 ## Obj文件
 ### 文件构成
 
+首先查阅网站
+
+[wiki]: https://en.wikipedia.org/wiki/Wavefront_.obj_file
+
+
+
 ## Stl文件
 ### 文件构成
-#### 1.首先查阅网站
+首先查阅网站
 
-[wiki]: https://en.wikipedia.org/wiki/STL_(file_format)	"wuju"
+[wiki]: https://en.wikipedia.org/wiki/STL_(file_format)
 
 可以得知，STL文件有两种格式，分别是ASCII格式和二进制格式
 
@@ -91,7 +97,7 @@ end
 
 ##### 示例
 
-[github ]: 
+[github ]: https://github.com/moyuking233/JavaLoad3D/blob/master/src/main/java/com/dragondb/javaLoad3D/stl/StlDemo.java
 
 
 
