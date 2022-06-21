@@ -14,13 +14,11 @@ import java.text.MessageFormat;
 
 public class ObjDemo {
     public static void main(String[] args) {
-        File file = ClasspathFileGetter.getter("Dog.obj");
-        // Open a stream to your OBJ resource
+        File file = ClasspathFileGetter.getter("PM3D_Helix3D1.obj");
         try (InputStream in = new FileInputStream(file)) {
-            // Create an OBJParser and parse the resource
             final IOBJParser parser = new OBJParser();
             final OBJModel model = parser.parse(in);
-            // Use the model representation to get some basic info
+            // 算体积就单独算，上面两句就不需要了，如果还需要额外参数可以直接上面自己存
             System.out.println(MessageFormat.format(
                     "OBJ model has {0} vertices, {1} normals, {2} texture coordinates, and {3} objects.",
                     model.getVertices().size(),
