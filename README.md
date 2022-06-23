@@ -1,3 +1,8 @@
+---
+title: Java代码解析3D模型文件，计算体积，参照three.js库
+date: 2019-04-24 15:40:24
+tags: 轮子,3D
+---
 [toc]
 
 #  Java代码解析3D模型文件，计算体积，参照three.js库
@@ -7,7 +12,7 @@
 
 首先查阅网站
 
-[wiki]: https://en.wikipedia.org/wiki/Wavefront_.obj_file
+[wiki]( https://en.wikipedia.org/wiki/Wavefront_.obj_file)
 
 格式如下
 
@@ -61,11 +66,13 @@ f  1/1/1  5/10/1  8/14/6  # 顶点1、顶点5、顶点8 组成的面
 
 对于多边形面的体积算法适配，请参考**多边形三角剖面算法**
 
-[多边形三角剖面算法]: https://www.geometrictools.com/Documentation/TriangulationByEarClipping.pdf
+[多边形三角剖面算法](https://www.geometrictools.com/Documentation/TriangulationByEarClipping.pdf)
+
+不想研究的，可以自己把代码写死，切面，比如四边面的1234个点，切成123,234两个三角形的面
 
 ### 解析示例
 
-[github ]: https://github.com/moyuking233/JavaLoad3D/blob/master/src/main/java/com/dragondb/javaLoad3D/obj/ObjDemo.java
+[github](https://github.com/moyuking233/JavaLoad3D/blob/master/src/main/java/com/dragondb/javaLoad3D/obj/ObjDemo.java)
 
 
 
@@ -74,7 +81,7 @@ f  1/1/1  5/10/1  8/14/6  # 顶点1、顶点5、顶点8 组成的面
 ### 文件构成
 首先查阅网站
 
-[wiki]: https://en.wikipedia.org/wiki/STL_(file_format)
+[wiki](https://en.wikipedia.org/wiki/STL_(file_format))
 
 可以得知，STL文件有两种格式，分别是ASCII格式和二进制格式
 
@@ -156,7 +163,7 @@ end
 
 ### 解析示例
 
-[github ]: https://github.com/moyuking233/JavaLoad3D/blob/master/src/main/java/com/dragondb/javaLoad3D/stl/StlDemo.java
+[github](https://github.com/moyuking233/JavaLoad3D/blob/master/src/main/java/com/dragondb/javaLoad3D/stl/StlDemo.java)
 
 
 
@@ -178,11 +185,11 @@ end
 
 # 项目地址
 
-[github ]: https://github.com/moyuking233/JavaLoad3D
+[github](https://github.com/moyuking233/JavaLoad3D)
 
 
 
 # 博客地址
 
-[halo]: https://dragondb.space/
+[halo](https://dragondb.space/)
 
